@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./styles/typography.css" />
+    <link rel="stylesheet" href="./styles/colors.css" />
+    <link rel="stylesheet" href="./styles/shadows.css" />
+    <link rel="stylesheet" href="./styles/components.css" />
+    <script src="./node_modules/feather-icons/dist/feather.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttons</title>
+  </head>
+  <body>
+    <button class="btn primary p4">Button</button>
+    <button class="btn primary p4" disabled>Button</button>
+    <button class="btn primary p4 iconed">
+      <i class="icon left" data-feather="arrow-left"></i>
+      Button
+    </button>
+
+    <button class="btn primary p4 iconed">
+      Button
+      <i class="icon right" data-feather="arrow-right"></i>
+    </button>
+
+    <button class="btn ghost primary p4">Button</button>
+
+    <button class="btn ghost primary p4" disabled>Button</button>
+
+    <button class="btn ghost primary p4 iconed">
+      <i class="icon left" data-feather="arrow-left"></i>
+      Button
+    </button>
+
+    <button class="btn ghost primary p4 iconed">
+      Button
+      <i class="icon right" data-feather="arrow-right"></i>
+    </button>
+
+    <button class="btn ghost primary p4 iconed" disabled>
+      <i class="icon left" data-feather="arrow-left"></i>
+      Button
+    </button>
+
+    <button class="btn ghost primary p4 iconed" disabled>
+      Button
+      <i class="icon right" data-feather="arrow-right"></i>
+    </button>
+
+    <div class="input-container">
+      <input placeholder="Normal" class="input" type="text" />
+    </div>
+    <div class="input-container">
+      <input placeholder="Error" class="input error" type="text" />
+      <p class="explanation p4">With explanation</p>
+    </div>
+    <div class="input-container">
+      <input placeholder="Alert" class="input alert" type="text" />
+      <p class="explanation p4">With explanation</p>
+    </div>
+
+    <div class="input-container">
+      <input type="text" class="input" placeholder="Disabled" disabled />
+    </div>
+
+    <div class="input-container">
+      <i class="icon left" data-feather="user"></i>
+      <input class="input primary" type="text" />
+    </div>
+
+    <div class="input-container">
+      <i class="icon left" data-feather="user"></i>
+      <input type="text" class="input error" />
+      <p class="explanation p4">With explanation</p>
+    </div>
+
+    <div class="input-container">
+      <i class="icon left" data-feather="user"></i>
+      <input type="text" class="input success" />
+    </div>
+
+    <div class="input-container">
+      <i class="icon left" data-feather="user"></i>
+      <input type="text" class="input alert" />
+      <p class="explanation p4">With explanation</p>
+    </div>
+
+    <div class="input-container">
+      <i class="icon right" data-feather="eye-off"></i>
+      <input class="input primary" type="text" />
+    </div>
+
+    <div class="input-container">
+      <i class="icon left" data-feather="user"></i>
+      <input class="input primary" type="text" disabled />
+    </div>
+
+    <div class="input-container">
+      <i class="icon right" data-feather="eye-off"></i>
+      <input class="input primary" type="text" />
+    </div>
+
+    <div class="input-container">
+      <i class="icon right" data-feather="eye-off"></i>
+      <input type="text" class="input error" />
+      <p class="explanation p4">With explanation</p>
+    </div>
+
+    <div class="input-container">
+      <i class="icon right" data-feather="eye-off"></i>
+      <input type="text" class="input success" />
+    </div>
+
+    <div class="input-container">
+      <i class="icon right" data-feather="eye-off"></i>
+      <input type="text" class="input alert" />
+      <p class="explanation p4">With explanation</p>
+    </div>
+
+    <div class="input-container">
+      <i class="icon right" data-feather="eye-off"></i>
+      <input class="input primary" type="text" disabled />
+    </div>
+
+    <label class="checkbox-container">
+      Bla1
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="checkbox-container">
+      Bla2
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="checkbox-container">
+      Bla3
+      <input type="checkbox" disabled />
+      <span class="checkmark"></span>
+    </label>
+
+    <p>Choose color:</p>
+    <label class="container-checkbox"
+      >Black
+      <input name="color" value="black" type="radio" />
+      <span class="radio"></span>
+    </label>
+    <label class="container-checkbox"
+      >Red
+      <input name="color" value="red" type="radio" />
+      <span class="radio"></span>
+    </label>
+
+    <label class="container-checkbox"
+      >Red
+      <input name="color" value="red" type="radio" disabled />
+      <span class="radio"></span>
+    </label>
+
+    <label class="switch">
+      <input type="checkbox" />
+      <span class="slider"></span>
+    </label>
+
+    <div class="custom-select" style="margin-top: 10px">
+      <select>
+        <option value="0">Select</option>
+        <option value="1">Banana</option>
+        <option value="2">Potato</option>
+      </select>
+    </div>
+
+    <script src="./events/dropdown.js"></script>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

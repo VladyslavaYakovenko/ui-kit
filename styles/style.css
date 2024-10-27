@@ -1,4 +1,7 @@
 @import url(./colors.css);
+@import url(./components.css);
 @import url(./flex-table.css);
+@import url(./shadows.css);
 @import url(./square.css);
+@import url(./table-style.css);
 @import url(./typography.css);

@@ -1,0 +1,39 @@
+.content-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 20px;
+}
+
+.palette-section {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.small-squares-container {
+  display: inherit;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.big-square-container {
+  margin-top: 0;
+}
+
+.big-square-container p {
+  margin: 10px 10px;
+}
+
+.square-small {
+  width: 48px;
+  height: 48px;
+}
+
+.square-big {
+  width: 130px;
+  height: 130px;
+}
+
+.square-big,
+.square-small {
+  display: inline-block;
+}
