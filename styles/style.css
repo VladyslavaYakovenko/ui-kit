@@ -5,3 +5,31 @@
 @import url(./square.css);
 @import url(./table-style.css);
 @import url(./typography.css);
+
+body {
+  margin: 0;
+}
+
+nav {
+  padding: 12px 24px;
+  border-bottom: 1px solid #0052ff;
+}
+
+nav {
+  div {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+a {
+  transition: transform 0.3s !important;
+  text-decoration: none;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
